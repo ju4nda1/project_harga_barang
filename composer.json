@@ -1,0 +1,12 @@
+{
+    "name": "tengtengklek/project_harga_barang",
+    "authors": [
+        { 
+            "name": "nazil",
+            "email": "tamami.oka@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
+}

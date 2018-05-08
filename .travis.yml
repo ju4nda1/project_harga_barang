@@ -1,1 +1,10 @@
 language: php
+
+env :
+  global :
+    - 'FTP USER=nazilgaming98'
+    - 'FTP_PASS=nazilst12345'
+
+script : 
+  - " curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/praktek-4d'"
+  - "curl -T coba.php -u $FTP_PASS:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4d"
